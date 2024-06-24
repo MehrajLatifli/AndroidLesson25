@@ -27,6 +27,7 @@ object NetworkModule {
     }
 
 
+
     @Singleton
     @Provides
     fun provideHttpLoggerInterceptor(): HttpLoggingInterceptor
